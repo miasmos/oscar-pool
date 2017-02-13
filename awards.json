@@ -1,0 +1,443 @@
+{
+	"Actor in a Leading Role": [
+		{
+			"title": "Manchester by the Sea",
+			"keyword": "Casey Affleck"
+		},
+		{
+			"title": "Hacksaw Ridge",
+			"keyword": "Andrew Garfield"
+		},
+		{
+			"title": "La La Land",
+			"keyword": "Ryan Gosling"
+		},
+		{
+			"title": "Captain Fantastic",
+			"keyword": "Viggo Mortensen"
+		},
+		{
+			"title": "Fences",
+			"keyword": "Denzel Washington"
+		}
+	],
+	"Animated Feature Film": [
+		{
+			"title": "Kubo and the Two Strings"
+		},
+		{
+			"title": "Moana"
+		},
+		{
+			"title": "My Life as a Courgette"
+		},
+		{
+			"title": "The Red Turtle"
+		},
+		{
+			"title": "Zootopia"
+		}
+	],
+	"Best Documentary Feature": [
+		{
+			"title": "Fire at Sea"
+		},
+		{
+			"title": "I Am Not Your Negro"
+		},
+		{
+			"title": "Life, Animated"
+		},
+		{
+			"title": "O.J.: Made in America"
+		},
+		{
+			"title": "13th"
+		}
+	],
+	"Makeup and Hairstyling": [
+		{
+			"title": "A Mand Called Ove"
+		},
+		{
+			"title": "Star Trek Beyond"
+		},
+		{
+			"title": "Suicide Squad"
+		}
+	],
+	"Animated Short Film": [
+		{
+			"title": "Blind Vaysha"
+		},
+		{
+			"title": "Borrowed Time"
+		},
+		{
+			"title": "Pear Cider and Cigarettes"
+		},
+		{
+			"title": "Pearl"
+		},
+		{
+			"title": "Piper"
+		}
+	],
+	"Visual Effects": [
+		{
+			"title": "Deepwater Horizon"
+		},
+		{
+			"title": "Doctor Strange"
+		},
+		{
+			"title": "The Jungle Book"
+		},
+		{
+			"title": "Kubo and the Two Strings"
+		},
+		{
+			"title": "Rogue One: A Star Wars Story"
+		}
+	],
+	"Actor in a Supporting Role": [
+		{
+			"title": "Moonlight",
+			"keyword": "Mahershala Ali"
+		},
+		{
+			"title": "Hell or High Water",
+			"keyword": "Jeff Bridges"
+		},
+		{
+			"title": "Manchester by the Sea",
+			"keyword": "Lucas Hedges"
+		},
+		{
+			"title": "Lion",
+			"keyword": "Dev Patel"
+		},
+		{
+			"title": "Noctural Animals",
+			"keyword": "Michael Shannon"
+		}
+	],
+	"Cinematography": [
+		{
+			"title": "Arrival"
+		},
+		{
+			"title": "La La Land"
+		},
+		{
+			"title": "Lion"
+		},
+		{
+			"title": "Moonlight"
+		},
+		{
+			"title": "Silence"
+		}
+	],
+	"Best Documentary Short Subject": [
+		{
+			"title": "Extremis"
+		},
+		{
+			"title": "4.1 miles"
+		},
+		{
+			"title": "Joe's Violin"
+		},
+		{
+			"title": "Watani"
+		},
+		{
+			"title": "The White Helmets"
+		}
+	],
+	"Original Score": [
+		{
+			"title": "Jackie"
+		},
+		{
+			"title": "La La Land"
+		},
+		{
+			"title": "Lion"
+		},
+		{
+			"title": "Moonlight"
+		},
+		{
+			"title": "Passengers"
+		}
+	],
+	"Live Action Short Film": [
+		{
+			"title": "Ennemis Interieurs"
+		},
+		{
+			"title": "La Femme at le TGV"
+		},
+		{
+			"title": "Silent Nights"
+		},
+		{
+			"title": "Sing"
+		},
+		{
+			"title": "Timecode"
+		}
+	],
+	"Adapted Screenplay": [
+		{
+			"title": "Arrival"
+		},
+		{
+			"title": "Fences"
+		},
+		{
+			"title": "Hidden Figures"
+		},
+		{
+			"title": "Lion"
+		},
+		{
+			"title": "Moonlight"
+		}
+	],
+	"Actress in a Leading Role": [
+		{
+			"title": "Elle",
+			"keyword": "Isabelle Huppert"
+		},
+		{
+			"title": "Loving",
+			"keyword": "Ruth Negga"
+		},
+		{
+			"title": "Jackie",
+			"keyword": "Natalie Portman"
+		},
+		{
+			"title": "La La Land",
+			"keyword": "Emma Stone"
+		},
+		{
+			"title": "Florence Foster Jenkins",
+			"keyword": "Meryl Streep"
+		}
+	],
+	"Costume Design": [
+		{
+			"title": "Allied"
+		},
+		{
+			"title": "Fantastic Beasts and Where to Find Them"
+		},
+		{
+			"title": "Florence Foster Jenkins"
+		},
+		{
+			"title": "Jackie"
+		},
+		{
+			"title": "La La Land"
+		}
+	],
+	"Film Editing": [
+		{
+			"title": "Arrival"
+		},
+		{
+			"title": "Hacksaw Ridge"
+		},
+		{
+			"title": "Hell or High Water"
+		},
+		{
+			"title": "La La Land"
+		},
+		{
+			"title": "Moonlight"
+		}
+	],
+	"Original Song": [
+		{
+			"title": "La La Land",
+			"keyword": "Audition"
+		},
+		{
+			"title": "Trolls",
+			"keyword": "Can't Stop the Feeling"
+		},
+		{
+			"title": "La La Land",
+			"keyword": "City of Stars"
+		},
+		{
+			"title": "Jim The James Foley Story",
+			"keyword": "The Empty Chair"
+		},
+		{
+			"title": "Moana",
+			"keyword": "How Far I'll Go"
+		}
+	],
+	"Sound Editing": [
+		{
+			"title": "Arrival"
+		},
+		{
+			"title": "Deepwater Horizon"
+		},
+		{
+			"title": "Hacksaw Ridge"
+		},
+		{
+			"title": "La La Land"
+		},
+		{
+			"title": "Sully"
+		}
+	],
+	"Original Screenplay": [
+		{
+			"title": "Hell or High Water"
+		},
+		{
+			"title": "La La Land"
+		},
+		{
+			"title": "The Lobster"
+		},
+		{
+			"title": "Manchester by the Sea"
+		},
+		{
+			"title": "20th Century Women"
+		}
+	],
+	"Actress in a Supporting Role": [
+		{
+			"title": "Fences",
+			"keyword": "Viola Davis"
+		},
+		{
+			"title": "Moonlight",
+			"keyword": "Naomie Harris"
+		},
+		{
+			"title": "Lion",
+			"keyword": "Nicole Kidman"
+		},
+		{
+			"title": "Hidden Figures",
+			"keyword": "Octavia Spencer"
+		},
+		{
+			"title": "Manchester by the Sea",
+			"keyword": "Michelle Williams"
+		}
+	],
+	"Directing": [
+		{
+			"title": "Arrival",
+			"keyword": "Denis Villenueve"
+		},
+		{
+			"title": "Hacksaw Ridge",
+			"keyword": "Mel Gibson"
+		},
+		{
+			"title": "La La Land",
+			"keyword": "Damien Chazelle"
+		},
+		{
+			"title": "Manchester by the Sea",
+			"keyword": "Kenneth Lonergan"
+		},
+		{
+			"title": "Moonlight",
+			"keyword": "Barry Jenkins"
+		}
+	],
+	"Foreign Language Film": [
+		{
+			"title": "Land of Mine"
+		},
+		{
+			"title": "A Man Called Ove"
+		},
+		{
+			"title": "The Salesman"
+		},
+		{
+			"title": "Tanna"
+		},
+		{
+			"title": "Toni Erdmann"
+		}
+	],
+	"Production Design": [
+		{
+			"title": "Arrival"
+		},
+		{
+			"title": "Fantastic Beasts and Where to Find Them"
+		},
+		{
+			"title": "Hail Caesar"
+		},
+		{
+			"title": "La La Land"
+		},
+		{
+			"title": "Passengers"
+		}
+	],
+	"Sound Mixing": [
+		{
+			"title": "Arrival"
+		},
+		{
+			"title": "Hacksaw Ridge"
+		},
+		{
+			"title": "La La Land"
+		},
+		{
+			"title": "Rogue One A Star Wars Story"
+		},
+		{
+			"title": "13 Hours The Secret Soldiers of Benghazi"
+		}
+	],
+	"Best Picture": [
+		{
+			"title": "Arrival"
+		},
+		{
+			"title": "Fences"
+		},
+		{
+			"title": "Hacksaw Ridge"
+		},
+		{
+			"title": "Hell or High Water"
+		},
+		{
+			"title": "Hidden Figures"
+		},
+		{
+			"title": "La La Land"
+		},
+		{
+			"title": "Manchester by the Sea"
+		},
+		{
+			"title": "Moonlight"
+		}
+	]
+}
