@@ -6,11 +6,13 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Lato" rel="stylesheet">
 	<link rel="stylesheet" href="./styles.css"></style>
+	<link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
+	<link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
 </head>
 <body>
 	<div class="header">
 		<div class="header-inner horizontal-center">
-			<img src="./img/logo.jpg"/>
+			<img src="./img/logo.png"/>
 			<div class="header-text">Predictions</div>
 		</div>
 	</div>
@@ -133,7 +135,7 @@
 					if (winningNominee.mentions > secondPlaceNomineeMentions) secondPlaceNomineeMentions = winningNominee.mentions
 					winningNominee = movie[award]
 					winningNominee.mentions = json.mentions[key]
-				} else if (json.mentions[key] > secondPlaceNomineeMentions) { 
+				} else if (json.mentions[key] > secondPlaceNomineeMentions && json.mentions[key] !== winningNominee.mentions) {
 					secondPlaceNomineeMentions = json.mentions[key]
 				}
 			}
@@ -186,6 +188,7 @@
 				    	display: false
 				    },
 				    tooltips: {
+				    	enabled: !isMobile(),
 				    	backgroundColor: '#fff',
 				    	bodyFontColor: '#333',
 				    	titleFontColor: '#333',
@@ -235,7 +238,7 @@
 					if (winningNominee.mentions > secondPlaceNomineeMentions) secondPlaceNomineeMentions = winningNominee.mentions
 					winningNominee = movie[award]
 					winningNominee.mentions = json.mentions[key]
-				} else if (json.mentions[key] > secondPlaceNomineeMentions) { 
+				} else if (json.mentions[key] > secondPlaceNomineeMentions && json.mentions[key] !== winningNominee.mentions) {
 					secondPlaceNomineeMentions = json.mentions[key]
 				}
 			}
@@ -273,6 +276,10 @@
 
 	function formatClass(text) {
 		return text.replace(/\s/g,'-').replace(/[.,\/#!$%\^&\*;:{}=\-_`~()]/g,'')
+	}
+
+	function isMobile() {
+		return navigator.userAgent.match(/mobi/i)
 	}
 
 	 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

@@ -94,32 +94,10 @@ function recordMention(tweet) {
 		if (tweetContainsString(movieTitle, tweetText) &&
 			tweetText.indexOf('oscar') > -1 &&
 			language === LanguageDetect.language.ENGLISH) {
-				//tweet contains the movie name, the word oscar, and is English
+			//tweet contains the movie name, the word oscar, and is English
 
-				console.log(colors.yellow(movieTitle)+`: ${tweetText}`)
-				mentions[movieKey]++
-
-				// for (var awardData in movieLookup[movieKey]) {
-				// 	var award = movieLookup[movieKey][awardData].award,
-				// 		keyword = movieLookup[movieKey][awardData].keyword,
-				// 		keywordMentioned = false,
-				// 		awardMentioned = false
-
-				// 	if (award === 'Original Song') {	//match the entire song name
-				// 		keywordMentioned = tweetContainsString(keyword, tweet.text)
-				// 	} else if (typeof keyword !== 'undefined') {	//match either the actor's first name or their last name
-				// 		let name = getFirstAndLastName(keyword)
-				// 		if (tweetContainsString(name.first, tweet.text) || tweetContainsString(name.last, tweet.text)) {
-				// 			keywordMentioned = true
-				// 		}
-				// 	}
-
-				// 	if (keywordMentioned) {
- 			// 			//tweet also contains the relevant actor's name or song name
-				// 		console.log(colors.green(movieTitle)+`: ${keyword}`)
-				// 		awardMentions[movieKey][award]++
-				// 	}
-				// }
+			console.log(colors.yellow(movieTitle)+`: ${tweetText}`)
+			mentions[movieKey]++
 
 			saveMentionJSON(mentions)
 
