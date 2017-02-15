@@ -73,6 +73,10 @@ function start() {
 	}
 	searchTerm = searchTerm.slice(0, searchTerm.length-2)	//remove the trailing comma
 
+	streamTwitterData(client)
+}
+
+function streamTwitterData(client) {
 	client.stream('statuses/filter', {track: searchTerm}, (stream) => {
 		stream.on('data', (event) => {
 			if (typeof event.text === 'string' && event.text.length > 0) recordMention(event)
@@ -80,7 +84,7 @@ function start() {
 
 		stream.on('error', (error) => {
 			console.log(error)
-			process.exit()
+			streamTwitterData(client)
 		})
 	})
 }
